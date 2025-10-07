@@ -17,12 +17,11 @@ public class Produto {
 	@Column(nullable = false)
 	private String nome;
 	
-	@Column(name = "descricao", nullable = false)
+	@Column(nullable = false)
 	private String descricao;
 	
-	@Column(name = "preco", nullable = false)
+	@Column(nullable = false)
 	private double preco;
-	
 	
 	public Long getId() {
 		return id;
