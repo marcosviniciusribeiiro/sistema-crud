@@ -17,10 +17,10 @@ public class Produto {
 	@Column(nullable = false)
 	private String nome;
 	
-	@Column(name = "descrição", nullable = false)
+	@Column(name = "descricao", nullable = false)
 	private String descricao;
 	
-	@Column(name = "preço", nullable = false)
+	@Column(name = "preco", nullable = false)
 	private double preco;
 	
 	
